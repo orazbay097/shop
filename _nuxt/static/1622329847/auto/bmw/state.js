@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fshop\u002F_nuxt\u002Fstatic\u002F1622329847",layout:"default",error:a,state:{groupNames:["auto","phones"]},serverRendered:true,routePath:"\u002Fauto\u002Fbmw",config:{_app:{basePath:"\u002Fshop\u002F",assetsPath:"\u002Fshop\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"f507f44f"}}}}(null));
