@@ -8,11 +8,12 @@
 
 <script lang="ts">
 import { Context } from "@nuxt/types";
+import { Good } from "~/types";
 export default {
   async asyncData({ $content, params, error, route }: Context) {
     try {
       const good = await $content(params.slug).fetch();
-      if (route.path.split("/")[1] !== (good as any).groupName)
+      if (route.path.split("/")[1] !== (good as Good).groupName)
         throw new Error();
       return { good };
     } catch (e) {

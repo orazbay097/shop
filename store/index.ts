@@ -1,5 +1,6 @@
 import { Context } from "@nuxt/types";
 import { ActionTree, MutationTree } from "vuex";
+import { Good } from "~/types";
 export const state = () => ({
   groupNames: [] as string[]
 });
@@ -18,7 +19,7 @@ export const actions: ActionTree<RootState, RootState> = {
         .only(["groupName"])
         .sortBy("createdAt", "asc")
         .fetch()
-    ).map((item: { groupName: string }) => item.groupName);
+    ).map((item: Good) => item.groupName);
     commit("setGroupNames", Array.from(new Set(groupNames)));
   }
 };
