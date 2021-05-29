@@ -1,5 +1,7 @@
 # shop
 
+[STAGE](https://orazbay097.github.io/shop/)
+
 ## Build Setup
 
 ```bash
