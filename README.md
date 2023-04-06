@@ -1,4 +1,4 @@
-# shop
+# shop - тестовое задание компании route4me
 
 [STAGE](https://orazbay097.github.io/shop/)
 
